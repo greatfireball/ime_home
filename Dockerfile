@@ -16,3 +16,6 @@ RUN python setup.py install
 
 VOLUME /data
 
+WORKDIR /data
+
+
