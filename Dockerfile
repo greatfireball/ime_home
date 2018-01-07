@@ -12,5 +12,7 @@ WORKDIR HOME
 
 RUN pip install -r requirements.txt
 
+RUN python setup.py install
+
 VOLUME /data
 
