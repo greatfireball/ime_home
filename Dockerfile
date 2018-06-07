@@ -17,7 +17,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
 RUN apt update && apt install --yes git python python-pip
 
 WORKDIR /tmp
-RUN git clone https://github.com/ListerLab/HOME.git HOME
+RUN git clone -b master https://github.com/ListerLab/HOME.git HOME
 
 WORKDIR HOME
 
