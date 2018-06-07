@@ -1,4 +1,5 @@
-FROM ubuntu:xenial
+ARG osversion=xenial
+FROM ubuntu:${osversion}
 
 LABEL maintainer="frank.foerster@ime.fraunhofer.de"
 LABEL description="Dockerfile providing the home differntial methylation program"
